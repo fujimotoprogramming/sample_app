@@ -31,4 +31,5 @@ test "index as admin including pagination and delete links" do
     get users_path
     assert_select 'a', text: 'delete', count: 0
   end
+
 end
